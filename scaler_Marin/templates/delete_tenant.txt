@@ -1,0 +1,2 @@
+<tenant expiration_time="" name="-{id}" tenant_type="">
+</tenant>

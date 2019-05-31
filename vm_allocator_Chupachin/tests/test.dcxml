@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<dcxml name="test">
+	<resources>
+        <server image_id="" name="1" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="2" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="3" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="4" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+	</resources>
+	<tenants>
+	    <tenant expiration_time="" name="1" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="3"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-1" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="2" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-2" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="3" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-3" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="4" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="4"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="3"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-4" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="5" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="5"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="4"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-5" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="6" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="4"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="3"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-6" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="7" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-7" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="8" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-8" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="9" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-9" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="10" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="4"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="3"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-10" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="11" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-11" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="12" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-12" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="13" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-13" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="14" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-14" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="15" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-15" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="16" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-16" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="17" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-17" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="18" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="2"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="1"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+<tenant expiration_time="" name="-18" tenant_type="">
+</tenant>
+<tenant expiration_time="" name="19" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="3"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
+
+	</tenants>
+</dcxml>

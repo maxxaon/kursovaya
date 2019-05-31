@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<dcxml name="test">
+	<resources>
+        <server image_id="" name="1" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="2" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="3" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="4" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="16"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="16"/>
+            </parameter_set>
+        </server>
+	</resources>
+	<tenants>
+	    {tenants}
+	</tenants>
+</dcxml>

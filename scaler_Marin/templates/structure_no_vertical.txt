@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<dcxml name="test">
+	<resources>
+        <server image_id="" name="1" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="2" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="3" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="4" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="5" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="6" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="7" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="8" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="9" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="10" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="11" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="12" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="13" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="14" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+        <server image_id="" name="15" numa="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="1"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="2"/>
+            </parameter_set>
+        </server>
+	</resources>
+	<tenants>
+	    {tenants}
+	</tenants>
+</dcxml>

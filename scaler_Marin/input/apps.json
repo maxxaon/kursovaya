@@ -1,0 +1,23 @@
+[
+  {
+    "app_name": "a",
+    "acceptable_exec_time": [20, 30],
+    "min_resources": {
+      "cpu": 2,
+      "ram": 3
+    },
+    "scale_capability": "dual",
+    "additional_info": {
+      "for_vertical": {
+        "coherent_state": 0.4,
+        "new_instance_time": 0.7,
+        "seq_requests": 0.8
+      },
+      "for_horizontal": {
+        "data_flow": 0.3,
+        "fail_probability": 0.6,
+        "intermediate result": 0
+      }
+    }
+  }
+]

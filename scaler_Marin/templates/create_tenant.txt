@@ -1,0 +1,10 @@
+<tenant expiration_time="" name="{id}" tenant_type="">
+    <list_of_nodes>
+        <vm floating_ip="False" image_id="" name="0" service="1">
+            <parameter_set>
+                <parameter parameter_name="VCPUs" parameter_type="integer" parameter_value="{cpu}"/>
+                <parameter parameter_name="RAM" parameter_type="integer" parameter_value="{ram}"/>
+            </parameter_set>
+        </vm>
+    </list_of_nodes>
+</tenant>
